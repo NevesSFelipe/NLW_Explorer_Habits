@@ -18,43 +18,28 @@
 
         <button>
             <img src="./assets/img/icon_plus.svg" alt="Icone de adicionar mais roxo">
-            Registrar o meu dia
+
+            <div>
+                Registrar o meu dia
+            </div>
+
         </button>
 
     </header>
 
-    <form>
+    <form id="form-habits">
 
         <div class="habits">
-            <div class="habit">🏃‍♂️</div>
-            <div class="habit">💧</div>
-            <div class="habit">🍎</div>
+            <div class="habit" data-name="run">🏃‍♂️</div>
+            <div class="habit" data-name="water">💧</div>
+            <div class="habit" data-name="food">🍎</div>
         </div>
 
-        <div class="days">
-            <div class="day">
-                <div>03/01</div>
-                <input type="checkbox" checked name="run">
-                <input type="checkbox" checked name="water">
-                <input type="checkbox" checked name="food">
-            </div>
-        </div>
-
-        <div class="days">
-            <div class="day">
-                <div>04/01</div>
-                <input type="checkbox" checked name="run">
-                <input type="checkbox" checked name="water">
-                <input type="checkbox" checked name="food">
-            </div>
-        </div>
+        <div class="days"></div>
 
     </form>
 
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
     
 </body>
 </html>
